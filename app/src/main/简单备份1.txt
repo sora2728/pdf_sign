@@ -1,0 +1,23 @@
+        //获取图片真正的宽高---这是顶部显示的图片的显示大图的方式！
+//        Glide.with(this).asBitmap().load(goods.getDefaultimg().toString()).into(new SimpleTarget<Bitmap>() {
+//            @Override
+//            public void onResourceReady(Bitmap bitmap, Transition<? super Bitmap> transition) {
+//                int width = bitmap.getWidth();
+//                int height = bitmap.getHeight();
+//                LogUtils.e("TAG", "width  -----  " + width);
+//                Log.e("TAG", "height -----  " + height);
+//                LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) img_head.getLayoutParams();
+//                int widthShow = ScreenUtils.getScreenWidth(context);
+//                Log.e("TAG", "屏幕宽度 -----  " + widthShow);
+//                lp.width = 1080;
+//                lp.height = height * 1080 / width;
+//                Log.e("TAG", "显示高度 -----  " + lp.height);
+//                img_head.setLayoutParams(lp);
+//                img_head.setImageBitmap(bitmap);
+//            }
+//        });
+
+
+//RecyclerView布局显示的备份
+//        LinearLayoutManager layoutManage = new LinearLayoutManager(mContext);
+//        GridLayoutManager layoutManage = new GridLayoutManager(getContext(), 2);

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#F6F6F6"
+    android:gravity="center"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/ll_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/ivImg"
+                android:layout_width="30dp"
+                android:layout_height="25dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="主页"
+            android:textColor="#AEAEAE" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tab_indicator_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/action_unread_icon"
+        android:gravity="center"
+        android:text="11"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        android:visibility="invisible" />
+
+    <!--<com.di.view.MessageView-->
+    <!--android:id="@+id/tab_unread_count"-->
+    <!--android:layout_width="22dp"-->
+    <!--android:layout_height="22dp"-->
+    <!--android:layout_alignRight="@+id/ll_00"-->
+    <!--android:layout_alignTop="@+id/ll_00"-->
+    <!--android:visibility="invisible" />-->
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\ksxxProject\\AndroidStudioProject\\pdf_sign\\lib\\build\\intermediates\\res\\merged\\release\\layout\\document_activity.xml",
+        "source": "E:\\ksxxProject\\AndroidStudioProject\\pdf_sign\\lib\\src\\main\\res\\layout\\document_activity.xml"
+    },
+    {
+        "merged": "D:\\sign_code\\MyApp\\lib\\build\\intermediates\\res\\merged\\release\\layout\\document_activity.xml",
+        "source": "D:\\sign_code\\MyApp\\lib\\src\\main\\res\\layout\\document_activity.xml"
+    },
+    {
+        "merged": "D:\\sign_code\\pdf_sign\\lib\\build\\intermediates\\res\\merged\\release\\layout\\document_activity.xml",
+        "source": "D:\\sign_code\\pdf_sign\\lib\\src\\main\\res\\layout\\document_activity.xml"
+    }
+]

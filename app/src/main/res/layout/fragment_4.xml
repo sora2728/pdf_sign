@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_01"
+    android:orientation="vertical">
+
+    <!--通用的标题显示-->
+    <include layout="@layout/common_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_bei_sai_er"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:text="贝塞尔曲线"
+                android:background="@drawable/btn_select_shape"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_snow"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:text="雪花飘落"
+                android:background="@drawable/btn_select_shape"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:background="@drawable/btn_select_shape"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

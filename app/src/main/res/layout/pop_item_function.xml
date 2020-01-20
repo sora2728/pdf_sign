@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_search_button_bg_b"
+    android:orientation="vertical">
+
+    <com.sign.util.StateButton
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="删除"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_body" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_white" />
+
+    <com.sign.util.StateButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_body" />
+</LinearLayout>
